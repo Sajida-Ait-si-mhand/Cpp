@@ -17,8 +17,8 @@ SRCS:=  Zombie.cpp main.cpp zombieHorde.cpp
 OBJS:= $(SRCS:.cpp=.o) 
 
 RM:= rm -f
-
-NAME:= zombie
+# CHECK THE NAME OF THE PROGRAM :)
+NAME:= zombieHorde
 
 all: $(NAME)
 
