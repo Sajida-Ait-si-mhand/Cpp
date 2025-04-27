@@ -12,7 +12,7 @@ CXX:= c++
 
 CXXFLAGS:= -Wall -Wextra -Werror -std=c++98
 
-SRCS:=  Zombie.cpp main.cpp
+SRCS:=  Zombie.cpp main.cpp randomChump.cpp
 
 OBJS:= $(SRCS:.cpp=.o) 
 

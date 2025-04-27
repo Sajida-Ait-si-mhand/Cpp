@@ -1,11 +1,11 @@
 #include "Zombie.hpp"
 
-
 int main()
 {
-    Zombie obj;
-    obj.announce();
-    obj.setname("Sojod");
-    std::cout << obj.getname();
+    Zombie *obj = newZombie("Foo");
+
+    obj->announce();
+    delete obj;
+    randomChump("bar");
     return 0;
 }
