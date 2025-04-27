@@ -1,22 +1,19 @@
 #pragma once 
 
 #include <iostream>
-#include <iomanip>
-#include <cstdlib>
-#include <sstream>
-#include <cctype>
 
-class Zombie {
-
+class Zombie
+{
     private:
-        std::string Name;
+        std::string name;
     public:
-        const std::string &getName() const;
-        void setName(const  std::string &Name);
+        void setname(const std::string name);
+        const std::string &getname() const;
 
+        // Methods:
 
         void announce( void );
+        // Zombie* newZombie( std::string name );
+        // void randomChump( std::string name );
 
-        Zombie();
-        ~Zombie();
 };

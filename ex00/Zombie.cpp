@@ -1,30 +1,17 @@
 #include "Zombie.hpp"
 
-
-
-const std::string &Zombie::getName() const 
+//getter:
+void Zombie::setname(const std::string name)
 {
-    return (this->Name);
+    this->name = name;
 }
 
-void Zombie::setName(const std::string &Name)
+const std::string &Zombie::getname() const
 {
-    this->Name = Name;
+    return (this->name);
 }
 
-// Zombie* newZombie( std::string name )
-// {
-//     Zombie* iptr = new Zombie(name) ;
-//     return (iptr);
-// }
-
-void Zombie::announce()
+void Zombie::announce(void)
 {
-    // << newZombie("FOO:")
-    std::cout  << "BraiiiiiiinnnzzzZ..." << std::endl;
+    std::cout << "BraiiiiiiinnnzzzZ..." << std::endl ;
 }
-
-// void randomChump( std::string name )
-// {
-//     //It creates a zombie, name it, and the zombie announces itself.
-// }
