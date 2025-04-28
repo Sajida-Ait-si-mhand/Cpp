@@ -1,14 +1,11 @@
 #include "Zombie.hpp"
 Zombie::Zombie()
 {
-    std::cout << "---" << std::endl;
-    // this->name = "ZombieName🧟";
-    // this->N = 99;
 }
 
 Zombie::~Zombie()
 {
-     std::cout  << "             " << "🩸"<< this->name << "🩸" << std::endl;
+     std::cout   << this->name << "'s Zobie get gestroyed" << std::endl;
 }
 
 void Zombie::setname(const std::string &name)
