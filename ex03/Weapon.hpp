@@ -13,9 +13,3 @@ class Weapon
         
 };
 
-class HumanA
-{
-    private:
-
-    public:
-};
