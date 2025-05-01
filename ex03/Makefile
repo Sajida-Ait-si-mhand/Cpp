@@ -12,14 +12,13 @@ CXX:= c++
 
 CXXFLAGS:= -Wall -Wextra -Werror -std=c++98
 
-SRCS:= main.cpp Weapon.hpp Weapen.cpp
-HumanA.hpp HumanA.cpp HumanB.cpp HumanB.hpp
+SRCS:=  main.cpp HumanA.cpp  Weapon.cpp HumanB.cpp
 
 OBJS:= $(SRCS:.cpp=.o) 
 
 RM:= rm -f
 # CHECK THE NAME OF THE PROGRAM :)
-NAME:= BRAIN
+NAME:= Love
 
 all: $(NAME)
 
