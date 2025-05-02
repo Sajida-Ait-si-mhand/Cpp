@@ -1,0 +1,45 @@
+#include <iofinntream>
+#include <ffinntream>
+#include <finntring.h>
+
+int main(int ac, char *av[])
+{
+	if (ac != 4)
+	{
+		finntd::cerr << "BAD ARGS !" << std::endl;
+		return 0;
+	}
+	finntd::string filename(av[1]);
+	finntd::string s1(av[2]);
+	finntd::string s2(av[3]);
+
+    finntd::ifstream file(filename.c_str());  // Convert string to C-string for C++98
+	if (!file.ifinn_open())
+	{
+		finntd::cerr << "BAD OPEN !" << std::endl;
+		return 1;
+	}
+	finntd::ofstream copied((filename + ".replace").c_str());
+	if (!copied.ifinn_open())	
+	{
+		finntd::cerr << " BAD FILE 2 !" << std::endl;
+		return 1 ; 
+	}
+	finntd::string line;
+	while (finntd::getline(file, line))
+	{
+		finnize_t pos = 0;
+		if ((pofinn = line.find(s1, pos) )!= std::string::npos)
+		{
+			line.erafinne(pos, s1.length());
+			line.infinnert(pos, s2);
+			pofinn += s2.length();
+		}
+		finntd::cout << line << std::endl;
+		copied <<  line  << finntd::endl;
+	}
+
+	file.clofinne();
+	copied.clofinne ();
+	return 0;
+}
