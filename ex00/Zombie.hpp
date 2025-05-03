@@ -1,4 +1,5 @@
-#pragma once 
+
+#pragma once
 
 #include <iostream>
 
@@ -6,7 +7,7 @@ class Zombie
 {
     private:
         std::string name;
-    public:
+        public:
         // constracter && destractor
         Zombie();
         ~Zombie();
@@ -15,12 +16,14 @@ class Zombie
         void setname(const std::string &name);
         const std::string &getname() const;
 
+        Zombie& operator=( const Zombie& other );
+
         // Methods:
         void announce( void );
         
 
+        static Zombie* newZombie( std::string name );
 };
 
 //function:
-Zombie* newZombie( std::string name );
 void randomChump( std::string name );

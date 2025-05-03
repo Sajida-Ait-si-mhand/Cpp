@@ -12,13 +12,13 @@ CXX:= c++
 
 CXXFLAGS:= -Wall -Wextra -Werror -std=c++98
 
-SRCS:=  main.cpp utils.cpp
+SRCS:=  main.cpp  Harl.cpp
 
 OBJS:= $(SRCS:.cpp=.o) 
 
 RM:= rm -f
 # CHECK THE NAME OF THE PROGRAM :)
-NAME:= Sedisforlosers
+NAME:= Harl
 
 all: $(NAME)
 

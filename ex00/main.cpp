@@ -2,9 +2,11 @@
 
 int main()
 {
-    Zombie *obj = newZombie("Foo");
-
-    obj->announce();
+    Zombie *obj = Zombie::newZombie("Foo");
+    Zombie sec;
+    
+    sec = *obj;
+    sec.announce();
     delete obj;
     randomChump("bar");
     return 0;
