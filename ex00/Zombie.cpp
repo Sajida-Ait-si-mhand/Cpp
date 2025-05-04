@@ -1,5 +1,6 @@
 #include "Zombie.hpp"
 
+
 Zombie::Zombie()
 {
     this->name = "unknown";
@@ -21,12 +22,6 @@ const std::string &Zombie::getname() const
     return (this->name);
 }
 
-Zombie& Zombie::operator=( const Zombie& other )
-{
-    this->name = other.name;
-    return (*this);
-}
-
 //Announcing :
 void Zombie::announce(void)
 {
@@ -34,4 +29,10 @@ void Zombie::announce(void)
 }
 
 // creating new zombies:
-
+Zombie*  newZombie(std::string name)
+{
+    Zombie *iptr = new Zombie();
+    // Zombie *iptr = new Zombie();
+    iptr->setname(name);
+    return (iptr);
+}
