@@ -1,10 +1,11 @@
 #include "Zombie.hpp"
 
 
-Zombie::Zombie()
+Zombie::Zombie(std::string _name)
 {
-    this->name = "unknown";
+    this->name = _name;
 }
+
 Zombie::~Zombie()
 {
     std::cout << this->name << " got destoyed" << std::endl;
@@ -28,11 +29,3 @@ void Zombie::announce(void)
     std::cout << this->name << ": BraiiiiiiinnnzzzZ..." << std::endl ;
 }
 
-// creating new zombies:
-Zombie*  newZombie(std::string name)
-{
-    Zombie *iptr = new Zombie();
-    // Zombie *iptr = new Zombie();
-    iptr->setname(name);
-    return (iptr);
-}

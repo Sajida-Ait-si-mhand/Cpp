@@ -8,7 +8,7 @@ class Zombie
         std::string name;
     public:
         // constracter && destractor
-        Zombie();
+        Zombie(std::string _name);
         ~Zombie();
 
         // Getter && Setter
@@ -24,3 +24,5 @@ class Zombie
 //function:
 Zombie* newZombie( std::string name );
 void randomChump( std::string name );
+
+

@@ -3,11 +3,11 @@
 
 
 
-Weapon::Weapon() : type("")  // Default constructor with empty string initialization
+Weapon::Weapon() : type("")  
 {
 }
 
-Weapon::Weapon(const std::string &type) : type(type)  // Constructor that initializes 'type'
+Weapon::Weapon(const std::string &type) : type(type)  
 {
 }
 

@@ -13,7 +13,7 @@ int main(int ac, char *av[])
 	std::string s1(av[2]);
 	std::string s2(av[3]);
 
-    std::ifstream file(filename.c_str());  // Convert string to C-string for C++98
+    std::ifstream file(filename.c_str());  //  for C++98
 	if (!file.is_open())
 	{
 		std::cerr << "BAD OPEN !" << std::endl;
@@ -26,16 +26,16 @@ int main(int ac, char *av[])
 		return 1 ; 
 	}
 	std::string line;
+	size_t pos = 0;
 	while (std::getline(file, line))
 	{
-		size_t pos = 0;
-		if ((pos = line.find(s1, pos) )!= std::string::npos)
+		while ((pos = line.find(s1, pos) )!= std::string::npos)
 		{
 			line.erase(pos, s1.length());
 			line.insert(pos, s2);
-			pos += s2.length();
+			pos += s2.length(); // 1111
 		}
-		std::cout << line << std::endl;
+		// std::cout << line << std::endl;
 		copied <<  line  << std::endl;
 	}
 

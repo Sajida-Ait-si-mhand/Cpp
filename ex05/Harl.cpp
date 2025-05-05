@@ -2,27 +2,31 @@
 
 void Harl::debug()
 {
-    std::cout << "Debuging" << std::endl;
+    std::cout << "I love having extra bacon for my 7XL-double-cheese-triple-pickle-specialketchup burger. I really do!" << std::endl;
 }
 
 void Harl::info( void )
 {
-    std::cout << "infos" << std::endl;
+    std::cout << "I cannot believe adding extra bacon costs more money. "
+    "You did not put enough bacon in my burger! If you did"
+    ", I would not  be asking for more!" << std::endl;
 }
 void Harl::warning()
 {
-    std::cout << "Warning" << std::endl;
+    std::cout << "I think I deserve to have some extra bacon for free. "
+    " I have been coming for years whereas you started working here since last month." << std::endl;
 }
 
 void Harl::error( void )
 {
-    std::cout << "error" << std::endl;
+    std::cout << "This is unacceptable! I want to speak to the manager now." << std::endl;
 }
+
 void Harl::complain( std::string level)
 {
-    static std::string array[4] = {"debug", "info", "warning", "erro"};
+    std::string array[4] = {"debug", "info", "warning", "error"};
 
-    static void (Harl::*pointers[4])() =
+    void (Harl::*pointers[4])() =
     {
         &Harl::debug,
         &Harl::info,
@@ -32,7 +36,6 @@ void Harl::complain( std::string level)
     for (int i = 0; i < 4 ; i++)
     {
         if (array[i] ==  level )
-            //call the private function via the ptr
         {
             (this->*pointers[i])();
             return ;

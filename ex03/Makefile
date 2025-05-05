@@ -18,7 +18,7 @@ OBJS:= $(SRCS:.cpp=.o)
 
 RM:= rm -f
 # CHECK THE NAME OF THE PROGRAM :)
-NAME:= Love
+NAME:= Weapon
 
 all: $(NAME)
 

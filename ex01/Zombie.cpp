@@ -1,11 +1,12 @@
 #include "Zombie.hpp"
 Zombie::Zombie()
 {
+    this->name = "unknown";
 }
 
 Zombie::~Zombie()
 {
-     std::cout   << this->name << "'s Zobie get gestroyed" << std::endl;
+     std::cout   << this->name << "'s Zombie get gestroyed" << std::endl;
 }
 
 void Zombie::setname(const std::string &name)
@@ -28,4 +29,9 @@ const std::string &Zombie::getname() const
 const int &Zombie::getN() const
 {
     return (this->N);
+}
+
+void Zombie::announce( void )
+{
+    std::cout << "BraiiiiiiinnnzzzZ...  I am "  << this->name << std::endl;
 }
