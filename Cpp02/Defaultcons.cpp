@@ -20,6 +20,7 @@ class PP
 			this->email =email;
 		}
 };
+
 void getinfo(PP U)
 {
 	std::cout << "NAME:  " << U.name << std::endl;
