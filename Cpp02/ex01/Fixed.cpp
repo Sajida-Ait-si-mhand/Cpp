@@ -14,7 +14,7 @@ Fixed::Fixed(int const x)
 
 Fixed::Fixed(float const x)
 { 
-	this->FixedPoint = static_cast<int>(roundf(x * 256.0f));
+	this->FixedPoint = roundf(x * 256.0f);//cast
 	std::cout << "Floting" << std::endl;
 }
 
@@ -43,8 +43,6 @@ int Fixed::getRawBits() const
 	return (this->FixedPoint);
 }
 
-
-
 Fixed::~Fixed()
 {
 	std::cout << "Destructor called" << std::endl;
@@ -57,7 +55,6 @@ float Fixed::toFloat(void) const
 int   Fixed::toInt(void)   const
 {
 	return this->FixedPoint / 256;  
-
 }
 
 std::ostream& operator<<(std::ostream &os, Fixed const &f) {
