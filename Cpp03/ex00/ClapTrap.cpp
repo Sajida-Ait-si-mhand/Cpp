@@ -1,6 +1,6 @@
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap(std::string name)
+ClapTrap::ClapTrap(std::string name) 
 {
 	this->Name =  name;
 	this->Hintspointx = 10;
@@ -29,8 +29,10 @@ void ClapTrap::takeDamage(unsigned int amount)
 {
 	std::cout << "ClapTrap " << Name << " takes " << amount << " points of damage!" << std::endl;
 	Hintspointx -= amount;
-	if (Hintspointx < 0) Hintspointx = 0;
+	if (Hintspointx < 0)
+		 Hintspointx = 0;
 }
+
 void ClapTrap::beRepaired(unsigned int amount)
 {
 	if (EnergyPoints > 0 && Hintspointx > 0)

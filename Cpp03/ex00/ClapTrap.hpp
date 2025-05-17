@@ -9,6 +9,10 @@ class ClapTrap
 		int Hintspointx;
 		int EnergyPoints;
 		int AttackDamge;
+		// 		// Fight (attack),
+		// Get hurt (takeDamage),
+		// Heal (beRepaired),
+		// And has stats (hit points, energy, damage
 	public:
 		// methods:
 		void attack(const std::string& target);
