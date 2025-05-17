@@ -26,4 +26,3 @@ class Fixed
 };
 
 std::ostream& operator<<(std::ostream &os, Fixed const &f);
-		//rda wfhmi
