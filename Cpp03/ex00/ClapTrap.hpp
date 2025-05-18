@@ -20,5 +20,6 @@ class ClapTrap
 		void beRepaired(unsigned int amount);
 
 		ClapTrap(std::string Name);
+		ClapTrap();
 		~ClapTrap();
 };

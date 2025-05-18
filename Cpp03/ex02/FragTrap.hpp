@@ -1,11 +1,14 @@
 #pragma once
 #include "ClapTrap.hpp"
+#include <iostream>
 
 class FragTrap : public ClapTrap {
-public:
-    FragTrap();                         // Default constructor
-    FragTrap(const std::string& name); // Param constructor
-    ~FragTrap();                        // Destructor
+    public:
+        FragTrap();                             
+        FragTrap(const std::string& name);      
+        FragTrap(const FragTrap& other);        
+        FragTrap& operator=(const FragTrap& other); 
+        ~FragTrap();                            
 
-    void highFivesGuys();              // Special function
+    void highFivesGuys();                   
 };

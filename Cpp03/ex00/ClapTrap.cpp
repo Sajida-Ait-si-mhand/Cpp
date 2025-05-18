@@ -6,12 +6,19 @@ ClapTrap::ClapTrap(std::string name)
 	this->Hintspointx = 10;
 	this->AttackDamge = 0;
 	this->EnergyPoints = 10;
-	std::cout << name << "Constructor called" << std::endl;
+	std::cout << name << "Para Constructor called" << std::endl;
 }
 
 ClapTrap::~ClapTrap()
 {
 	std::cout << "Destructor called" << std::endl;
+}
+ClapTrap::ClapTrap()
+{
+	this->Hintspointx = 10;
+	this->AttackDamge = 0;
+	this->EnergyPoints = 10;
+	std::cout << "Constructor called" << std::endl;
 }
 void ClapTrap::attack(const std::string& target)
 {
