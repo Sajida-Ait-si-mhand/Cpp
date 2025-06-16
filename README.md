@@ -196,5 +196,5 @@ int main() {
 
 ---------
 
- **they're teaching you how to think like a software architect, not just a coder **       
+ ** They're teaching you how to think like a software architect, not just a coder **       
 Wa_hassan </>                  
