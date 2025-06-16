@@ -67,6 +67,9 @@ int main()
 	Grade2::alex();
 	return 0;
 }
+
+$>  I am alex from 3nd Grade    
+    I am alex from 2nd Grade    
 ``` 
 ## Where are we going to use it in this module?
 The exercises don't require you to create custom namespaces. You'll focus on:
