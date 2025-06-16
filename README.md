@@ -76,9 +76,9 @@ The exercises don't require you to create custom namespaces. You'll focus on:
     Standard library usage  
 *Required by rules*: Document forbids using namespace std;  
 *Remember: Every time you use standard library features, you MUST prefix them with std:: -  this is your main namespace usage in Module 00!*    
-## What is the relation between std and namespace:  
-    **std** is a standard of namespace in c++           
-    **std** : standart library namespace    
+## What is the relation between STD and NAMESPACE:  
+    std is a standard of namespace in c++           
+    std : standart library namespace    
 ```cpp
 1.  namespace std {
     // All standard library stuff lives here
@@ -113,9 +113,40 @@ class ClassName {
     // Public members (accessible from outside the class)
 
     protected:
-    // Protected members (accessible in derived classes)
+    // Protected members (accessible in derived classes we will know more about it ) 
 };
-``` 
+```
+```cpp
+// BAD - Without encapsulation
+struct BadContact {
+    std::string firstName;  // Anyone can modify directly
+    std::string phoneNumber;
+};
+
+int main() {
+    BadContact contact;
+    contact.firstName = "";      // Oops! Empty name allowed
+    contact.phoneNumber = "abc"; // Oops! Invalid phone number
+} 
+```
+```cpp
+// GOOD - With encapsulation
+class GoodContact {
+private:
+    std::string firstName;
+    std::string phoneNumber;
+    
+public:
+    void setFirstName(const std::string& name) {
+        if (!name.empty()) {
+            firstName = name;
+        } else {
+            std::cout << "Error: Name cannot be empty!" << std::endl;
+        }
+    }
+};
+```
+
 ## Key OOP Principles:
 
 1. Encapsulation: Hide internal details, expose only what's necessary   
@@ -125,5 +156,5 @@ class ClassName {
 
 ---------
 
- **they're teaching you how to think like a software architect, not just a coder **
+ **they're teaching you how to think like a software architect, not just a coder **       
 Wa_hassan </>                  
