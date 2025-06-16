@@ -1,29 +1,20 @@
-<!--this is the other way to  ![Feature Demo](images/𝔢𝔩𝔡𝔯𝔦𝔱𝔠𝔥%20ᖭི༏ᖫྀ.gif) -->
 
 
 # C++
 
 <img src="./images/Why C++ is so popular among game developers_ _ Geekboots.jpeg" width="800">
 
-## The purpose of NetPractice :
+## Module 00:
+    Module 00 is designed as Day 1 of your OOP education, giving you the essential vocabulary and basic tools you need before moving on to more advanced OOP concepts like inheritance, polymorphism, operator overloading, etc. in the subsequent modules.
+## The purpose of OOP :
 
-This project teach you about networking concepts, Particularly TCP/IP addressing by exercices, In total we have
-10  exercises/levels to solve  
 
-## Installation (how to set it up):   
-    Take a screenshot  
-## Usage (how to run the project):    
-    Take a screenshot
-## Contributing (guidelines for contributions):    
-    link for tldraw    
-## License :    
-        
 | Topic               | Link |
 |---------------------|------|
-| 🚁 How internet works | [Watch here](https://www.youtube.com/watch?v=x3c1ih2NJEg) |    
-| 🚁 Subnet           | [Watch here](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE) |    
-| 🚁 How IPs work     | [Watch here](https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF) |     
-| 🚁 OSI model       | [Watch here](https://www.youtube.com/watch?v=LkolbURrtTs&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi&index=3) |    
+| 🚁 C++ OOP - Introduction to classes and objects for beginners
+| [Watch here](https://www.youtube.com/watch?v=iVLQeWbgbXs&list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN&ab_channel=CodeBeauty) |    
+| 🚁 Subnet           | [Watch here](https://www.youtube.com/watch?v=-TkoO8Z07hI&ab_channel=BroCode) |    
+| 🚁 One of the best courses     | [Watch here](https://www.youtube.com/watch?v=ZzaPdXTrSb8&ab_channel=ProgrammingwithMosh) |     
  
 
 
@@ -31,20 +22,9 @@ This project teach you about networking concepts, Particularly TCP/IP addressing
 
 
 <!-- -------------------------------------------------------------------------
-THIS IS JUTT AN EXAMPLE:
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Features](#features)  
-![GitHub stars](https://img.shields.io/github/stars/user/repo)  
-![GitHub forks](https://img.shields.io/github/forks/user/repo)  
-![Demo](https://github.com/user/repo/blob/main/demo.gif)  
-🚀 Features  
-- 🔥 Fast execution  
-- ✅ Easy to use  
-Use bold (**bold**) and italics (*italics*) to highlight key points.
-![Red Text](https://www.google.com/search?sca_esv=b1220a1998e9d372&q=good&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBjLjqIC1CYKD9D-DQAQS3Z76PcpKL71TDvYjBBbnH5xvWsMxGCqZDRZy-gCED0F_SV97e_sIInTfC87U2OoLyVmHKRIwLbrycUtfsdei_fTBNaAuV8q6VsTvz9n3e95FsiaUYMZ4s-tW8qWoeU7ztc1p4FEh&sa=X&ved=2ahUKEwjY6s7M8pmLAxUDX_EDHQPyAJsQtKgLegQIDRAB&biw=1920&bih=927&dpr=1#vhid=4dqJxvjv2YdIdM&vssid=mosaic)
-------------------------------------------------------------------------
 
+# what is OOP
+# how can OOP will help me in my project 
 
 
 ## What to study :   
@@ -70,11 +50,15 @@ Use bold (**bold**) and italics (*italics*) to highlight key points.
 
 Let's go to learn new things:   
     
-## What is Network:      
-         It is a group of two computer or more that can share information between them (The purpose of a network is to enable communication and data sharing between devices.)   
-## What is a Protocol?
+## Key OOP Principles:
+
+Encapsulation: Hide internal details, expose only what's necessary
+Inheritance  : Create new classes based on existing ones
+Polymorphism : Same interface, different implementations
+Abstraction  : Focus on what an object does, not how it does it## What is a Protocol?
         You can imagine a protocol as a **rule** or a set of guidelines that devices follow to communicate with each other. Protocols ensure that data is transmitted, received,  
         and interpreted correctly across networks. Without protocols, devices wouldn't know how to format, send, or process data.
+        
 ## Type of Netwok:   
       We have 4 type of networking    
          1.PAN  (Personal Area Network):   
