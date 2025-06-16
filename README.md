@@ -88,9 +88,9 @@ The exercises don't require you to create custom namespaces. You'll focus on:
     // thousands of other standard library components
 }
 2.  
-    **::** = Scope Resolution Operator  
-    **::** is used to access things inside a namespace  
-    **std::**    means "access something from the std namespace"    
+    :: = Scope Resolution Operator  
+    :: is used to access things inside a namespace  
+    std::    means "access something from the std namespace"    
 ``` 
 
 # Now we are done with Namespace 👌
