@@ -116,6 +116,7 @@ class ClassName {
     // Protected members (accessible in derived classes we will know more about it ) 
 };
 ```
+
 ```cpp
 // BAD - Without encapsulation
 struct BadContact {
@@ -129,6 +130,7 @@ int main() {
     contact.phoneNumber = "abc"; // Oops! Invalid phone number
 } 
 ```
+
 ```cpp
 // GOOD - With encapsulation
 class GoodContact {
@@ -145,6 +147,41 @@ public:
         }
     }
 };
+```
+
+# Classes are the foundation of OOP - they let you create your own data types with custom behavior!
+```cpp
+// Creating a custom data type called "Person"
+class Person {
+private:
+    std::string name;
+    int age;
+    double height;
+
+public:
+    // Constructor
+    Person(std::string n, int a, double h) : name(n), age(a), height(h) {}
+    
+    // Methods
+    void introduce() {
+        std::cout << "Hi, I'm " << name << ", " << age << " years old" << std::endl;
+    }
+    
+    // Getters
+    std::string getName() const { return name; }
+    int getAge() const { return age; }
+};
+
+// Now "Person" is your custom data type!
+int main() {
+    Person john("John", 25, 175.5);  // Create object of your custom type
+    Person mary("Mary", 30, 165.0);  // Another object
+    
+    john.introduce();  // Use your custom type
+    mary.introduce();
+    
+    return 0;
+}
 ```
 
 ## Key OOP Principles:
