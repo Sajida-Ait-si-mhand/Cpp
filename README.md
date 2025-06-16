@@ -54,9 +54,7 @@ Let's go to learn new things:
 1. Encapsulation: Hide internal details, expose only what's necessary   
 2. Inheritance  : Create new classes based on existing ones    
 3. Polymorphism : Same interface, different implementations    
-4. Abstraction  : Focus on what an object does, not how it does it## What is a Protocol?   
-        You can imagine a protocol as a **rule** or a set of guidelines that devices follow to communicate with each other. Protocols ensure that data is transmitted, received,  
-        and interpreted correctly across networks. Without protocols, devices wouldn't know how to format, send, or process data.
+4. Abstraction  : Focus on what an object does, not how it does it
 
 ## Type of Netwok:   
       We have 4 type of networking    
