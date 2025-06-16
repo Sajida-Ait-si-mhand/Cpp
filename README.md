@@ -94,8 +94,9 @@ The exercises don't require you to create custom namespaces. You'll focus on:
     Classes (PhoneBook, Contact, Account)
     Member functions
     Standard library usage
-*Required by rules*: Document forbids using namespace std;
-*Remember: Every time you use standard library features, you MUST prefix them with std:: - this is your main namespace usage in Module 00!*
+*Required by rules*: Document forbids using namespace std;  
+*Remember: Every time you use standard library features, you MUST prefix them with std:: -  !this is your main namespace usage in Module 00!*
+
 ## Key OOP Principles:
 
 1. Encapsulation: Hide internal details, expose only what's necessary   
