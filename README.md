@@ -96,6 +96,7 @@ The exercises don't require you to create custom namespaces. You'll focus on:
     Standard library usage
 *Required by rules*: Document forbids using namespace std;  
 *Remember: Every time you use standard library features, you MUST prefix them with std:: -  !this is your main namespace usage in Module 00!*
+<h2 style="color:purple">📚 Learning Objectives</h2>
 
 ## Key OOP Principles:
 
