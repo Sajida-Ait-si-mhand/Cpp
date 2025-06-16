@@ -63,30 +63,31 @@ Let's go to learn new things:
 ```markdown
 ```cpp
 #include <iostream>
-#include <string>
 
-class Person {
-private:
-    string name;
-    int age;
-
-public:
-    Person(string n, int a) : name(n), age(a) {}
-    
-    void display() {
-        cout << "Name: " << name << ", Age: " << age << endl;
-    }
-    
-    // Getter methods
-    string getName() const { return name; }
-    int getAge() const { return age; }
-};
-
-int main() {
-    Person person("John Doe", 25);
-    person.display();
-    return 0;
+namespace Grade3
+{
+	void alex()
+	{
+		std::cout << " I am alex from 3nd Grade" << std::endl;
+	}
 }
+
+namespace Grade2
+{
+	void alex()
+	{
+		std::cout << " I am alex from 2nd Grade" << std::endl;
+	}
+}
+
+int main()
+{
+
+	Grade3::alex();
+	Grade2::alex();
+	return 0;
+}
+``` 
 
 ## Key OOP Principles:
 
