@@ -11,9 +11,8 @@
 
 | Topic               | Link |
 |---------------------|------|
-| 🚁 C++ OOP - Introduction to classes and objects for beginners
-| [Watch here](https://www.youtube.com/watch?v=iVLQeWbgbXs&list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN&ab_channel=CodeBeauty) |    
-| 🚁 Subnet           | [Watch here](https://www.youtube.com/watch?v=-TkoO8Z07hI&ab_channel=BroCode) |    
+| 🚁 C++ OOP - Introduction to classes and objects for beginners| [Watch here](https://www.youtube.com/watch?v=iVLQeWbgbXs&list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN&ab_channel=CodeBeauty) |    
+| 🚁 Bro code           | [Watch here](https://www.youtube.com/watch?v=-TkoO8Z07hI&ab_channel=BroCode) |    
 | 🚁 One of the best courses     | [Watch here](https://www.youtube.com/watch?v=ZzaPdXTrSb8&ab_channel=ProgrammingwithMosh) |     
  
 
@@ -58,7 +57,7 @@ Polymorphism : Same interface, different implementations
 Abstraction  : Focus on what an object does, not how it does it## What is a Protocol?
         You can imagine a protocol as a **rule** or a set of guidelines that devices follow to communicate with each other. Protocols ensure that data is transmitted, received,  
         and interpreted correctly across networks. Without protocols, devices wouldn't know how to format, send, or process data.
-        
+
 ## Type of Netwok:   
       We have 4 type of networking    
          1.PAN  (Personal Area Network):   
