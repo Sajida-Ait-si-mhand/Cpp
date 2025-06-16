@@ -6,8 +6,15 @@
 
 ## Module 00:
     Module 00 is designed as Day 1 of your OOP education, giving you the essential vocabulary and basic tools you need before moving on to more advanced OOP concepts like inheritance, polymorphism, operator overloading, etc. in the subsequent modules.
-## The purpose of OOP :
+    In this module we are going to learn Namespace,  classes, member functions, stdio streams,
+    initialization lists, static, const, and some other basic stuf
 
+## The purpose of OOP :
+    Write code once, use it many times through classes and objects
+    Reduces code duplication and development time
+    Makes code more intuitive and easier to understand
+
+## Some vids:
 
 | Topic               | Link |
 |---------------------|------|
@@ -48,7 +55,39 @@
 
 
 Let's go to learn new things:   
+# Namespace:
+    This helps you to have same name function without any throwing any errors
+    ## More Complex C++ Examples
+
+**Class Example:**
+```markdown
+```cpp
+#include <iostream>
+#include <string>
+
+class Person {
+private:
+    string name;
+    int age;
+
+public:
+    Person(string n, int a) : name(n), age(a) {}
     
+    void display() {
+        cout << "Name: " << name << ", Age: " << age << endl;
+    }
+    
+    // Getter methods
+    string getName() const { return name; }
+    int getAge() const { return age; }
+};
+
+int main() {
+    Person person("John Doe", 25);
+    person.display();
+    return 0;
+}
+
 ## Key OOP Principles:
 
 1. Encapsulation: Hide internal details, expose only what's necessary   
@@ -158,5 +197,5 @@ TCP/IP is a simplified version of the OSI model, focusing on how data transmissi
 
 ---------
 
-
-Wa_hassan </>%                     
+" they're teaching you how to think like a software architect, not just a coder "
+Wa_hassan </>                  
