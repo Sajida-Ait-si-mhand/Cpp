@@ -51,10 +51,10 @@ Let's go to learn new things:
     
 ## Key OOP Principles:
 
-Encapsulation: Hide internal details, expose only what's necessary
-Inheritance  : Create new classes based on existing ones
-Polymorphism : Same interface, different implementations
-Abstraction  : Focus on what an object does, not how it does it## What is a Protocol?
+1. Encapsulation: Hide internal details, expose only what's necessary   
+2. Inheritance  : Create new classes based on existing ones    
+3. Polymorphism : Same interface, different implementations    
+4. Abstraction  : Focus on what an object does, not how it does it## What is a Protocol?   
         You can imagine a protocol as a **rule** or a set of guidelines that devices follow to communicate with each other. Protocols ensure that data is transmitted, received,  
         and interpreted correctly across networks. Without protocols, devices wouldn't know how to format, send, or process data.
 
